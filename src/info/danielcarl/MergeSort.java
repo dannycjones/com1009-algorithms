@@ -2,7 +2,7 @@ package info.danielcarl;
 
 public class MergeSort extends Sort {
   public static void main(String[] args) {
-    int[] numbers = { 5, 2, 4, 6, 1, 3 };
+    int[] numbers = { 5, 2, 4, 7, 1, 3, 2, 6 };
 
     System.out.println("Unsorted Array: " + formatArray(numbers));
 
