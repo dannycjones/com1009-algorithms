@@ -1,6 +1,6 @@
 package info.danielcarl;
 
-class InsertionSort {
+public class InsertionSort extends Sort {
   public static void main(String[] args) {
     int[] numbers = { 5, 2, 4, 6, 1, 3 };
 
@@ -23,13 +23,5 @@ class InsertionSort {
       }
       numArray[i + 1] = key; // Place in final position.
     }
-  }
-
-  private static String formatArray(int[] numArray) {
-    String str = "";
-    for (int number : numArray) {
-      str += number + "; ";
-    }
-    return str;
   }
 }
